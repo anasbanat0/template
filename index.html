@@ -7,16 +7,689 @@
     <title>Wordpress Template</title>
     <link rel="stylesheet" href="./vendor/css/all.min.css" />
     <link rel="stylesheet" href="./style.css" />
+    <!-- media query -->
+    <link rel="stylesheet" href="./assets/css/_media.css">
   </head>
   <body>
     <!-- Start Header Area -->
-    <header></header>
+    <header class="header-area">
+      <div class="container">
+        <nav class="nav">
+          <a href="#" class="link nav-brand text-light">
+            <img src="./assets/images/logo.png" alt="logo" width="50" />
+          </a>
+          <!-- toggle menu -->
+          <button class="toggle-button">
+            <span class="fas fa-hamburger"></span>
+          </button>
+          <!-- navigation items -->
+          <div class="collapse" id="toggle-collapse">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-link">
+                <a href="#" class="link text-light">Home</a>
+              </li>
+              <li class="nav-link">
+                <a href="#" class="link text-light">People</a>
+              </li>
+              <li class="nav-link">
+                <a href="#" class="link text-light">Design</a>
+              </li>
+              <li class="nav-link">
+                <a href="#" class="link text-light">Travel</a>
+              </li>
+              <li class="nav-link">
+                <a href="#" class="link text-light">About us</a>
+              </li>
+            </ul>
+            <div class="search">
+              <form class="form-group">
+                <input
+                  type="search"
+                  class="input-control mr-sm-2"
+                  placeholder="Search"
+                />
+                <button class="btn btn-submit" type="submit">
+                  <i class="fas fa-search"></i>
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
     <!-- End Header Area -->
     <!-- Start Main Site Area -->
-    <main></main>
+    <main class="main-area">
+      <!-- Start Banner Area -->
+      <section class="banner-area">
+        <div class="container-fluid">
+          <div class="banner">
+            <img
+              src="./assets/images/banner.jpg"
+              alt="banner area"
+              class="fluid"
+            />
+          </div>
+          <div class="banner-title text-center">
+            <h1 class="text-lg text-light">Simplicity</h1>
+            <span class="description text-sm text-light"
+              >The Power of WordPress</span
+            >
+          </div>
+        </div>
+      </section>
+      <!-- End Banner Area -->
+      <!-- Start Categories Area -->
+      <section class="categories">
+        <div class="container">
+          <div class="flex flex-row flex-wrap">
+            <a href="#" class="link">
+              <span>All</span>
+            </a>
+            <a href="#" class="link">
+              <span>Commercial</span>
+            </a>
+            <a href="#" class="link">
+              <span>Natural</span>
+            </a>
+            <a href="#" class="link">
+              <span>People</span>
+            </a>
+            <a href="#" class="link">
+              <span>Photograpy</span>
+            </a>
+            <a href="#" class="link">
+              <span>Travel</span>
+            </a>
+            <a href="#" class="link">
+              <span>Uncategorized</span>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- End Categories Area -->
+      <!-- Start Post Area -->
+      <section class="post-area">
+        <div class="wrapper">
+          <!-- Two Columns Layout -->
+          <div class="row">
+            <div class="col-lg-8 col-md-12">
+              <!-- Two Columns Layout -->
+              <div class="grid">
+                <div class="article">
+                  <article class="blog-post">
+                    <div class="post-thumbnail">
+                      <img
+                        src="./assets/images/feature_image/tech.jpg"
+                        alt="post image"
+                        class="fluid"
+                      />
+                    </div>
+                    <div class="post-info">
+                      <div class="post-author">
+                        <a href="#"
+                          ><span class="text-sm text-gray"
+                            >By Admin June 18, 2022</span
+                          ></a
+                        >
+                      </div>
+                      <div class="post-title">
+                        <a href="#"
+                          ><span class="text-lg text-dark"
+                            >Trip that you'll never ever forget</span
+                          ></a
+                        >
+                      </div>
+                      <div class="post-content">
+                        <p class="para">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Fuga, voluptas. Natus reprehenderit delectus
+                          error reiciendis.
+                        </p>
+                      </div>
+                      <hr />
+                      <div class="post-cat">
+                        <a href="#"
+                          ><span class="text-sm uppercase text-gray"
+                            >People</span
+                          ></a
+                        >
+                        <a href="#"
+                          ><span class="text-sm uppercase text-gray"
+                            >Travel</span
+                          ></a
+                        >
+                      </div>
+                    </div>
+                  </article>
+                </div>
+                <div class="article">
+                  <article class="blog-post">
+                    <div class="post-thumbnail">
+                      <img
+                        src="./assets/images/feature_image/child.jpg"
+                        alt="post image"
+                        class="fluid"
+                      />
+                    </div>
+                    <div class="post-info">
+                      <div class="post-author">
+                        <a href="#"
+                          ><span class="text-sm text-gray"
+                            >By Admin June 18, 2022</span
+                          ></a
+                        >
+                      </div>
+                      <div class="post-title">
+                        <a href="#"
+                          ><span class="text-lg text-dark"
+                            >Trip that you'll never ever forget</span
+                          ></a
+                        >
+                      </div>
+                      <div class="post-content">
+                        <p class="para">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Fuga, voluptas. Natus reprehenderit delectus
+                          error reiciendis.
+                        </p>
+                      </div>
+                      <hr />
+                      <div class="post-cat">
+                        <a href="#"
+                          ><span class="text-sm uppercase text-gray"
+                            >Design</span
+                          ></a
+                        >
+                        <a href="#"
+                          ><span class="text-sm uppercase text-gray"
+                            >Photograpy</span
+                          ></a
+                        >
+                      </div>
+                    </div>
+                  </article>
+                </div>
+                <div class="article">
+                  <article class="blog-post">
+                    <div class="post-thumbnail">
+                      <img
+                        src="./assets/images/feature_image/key.jpg"
+                        alt="post image"
+                        class="fluid"
+                      />
+                    </div>
+                    <div class="post-info">
+                      <div class="post-author">
+                        <a href="#"
+                          ><span class="text-sm text-gray"
+                            >By Admin June 18, 2022</span
+                          ></a
+                        >
+                      </div>
+                      <div class="post-title">
+                        <a href="#"
+                          ><span class="text-lg text-dark"
+                            >Trip that you'll never ever forget</span
+                          ></a
+                        >
+                      </div>
+                      <div class="post-content">
+                        <p class="para">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Fuga, voluptas. Natus reprehenderit delectus
+                          error reiciendis.
+                        </p>
+                      </div>
+                      <hr />
+                      <div class="post-cat">
+                        <a href="#"
+                          ><span class="text-sm uppercase text-gray"
+                            >Design</span
+                          ></a
+                        >
+                        <a href="#"
+                          ><span class="text-sm uppercase text-gray"
+                            >Photograpy</span
+                          ></a
+                        >
+                      </div>
+                    </div>
+                  </article>
+                </div>
+                <div class="article">
+                  <article class="blog-post">
+                    <div class="post-thumbnail">
+                      <img
+                        src="./assets/images/feature_image/nasa.jpg"
+                        alt="post image"
+                        class="fluid"
+                      />
+                    </div>
+                    <div class="post-info">
+                      <div class="post-author">
+                        <a href="#"
+                          ><span class="text-sm text-gray"
+                            >By Admin June 18, 2022</span
+                          ></a
+                        >
+                      </div>
+                      <div class="post-title">
+                        <a href="#"
+                          ><span class="text-lg text-dark"
+                            >Trip that you'll never ever forget</span
+                          ></a
+                        >
+                      </div>
+                      <div class="post-content">
+                        <p class="para">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Fuga, voluptas. Natus reprehenderit delectus
+                          error reiciendis.
+                        </p>
+                      </div>
+                      <hr />
+                      <div class="post-cat">
+                        <a href="#"
+                          ><span class="text-sm uppercase text-gray"
+                            >Design</span
+                          ></a
+                        >
+                        <a href="#"
+                          ><span class="text-sm uppercase text-gray"
+                            >Photograpy</span
+                          ></a
+                        >
+                      </div>
+                    </div>
+                  </article>
+                </div>
+                <div class="article">
+                  <article class="blog-post">
+                    <div class="post-thumbnail">
+                      <img
+                        src="./assets/images/feature_image/12.jpg"
+                        alt="post image"
+                        class="fluid"
+                      />
+                    </div>
+                    <div class="post-info">
+                      <div class="post-author">
+                        <a href="#"
+                          ><span class="text-sm text-gray"
+                            >By Admin June 18, 2022</span
+                          ></a
+                        >
+                      </div>
+                      <div class="post-title">
+                        <a href="#"
+                          ><span class="text-lg text-dark"
+                            >Trip that you'll never ever forget</span
+                          ></a
+                        >
+                      </div>
+                      <div class="post-content">
+                        <p class="para">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Fuga, voluptas. Natus reprehenderit delectus
+                          error reiciendis.
+                        </p>
+                      </div>
+                      <hr />
+                      <div class="post-cat">
+                        <a href="#"
+                          ><span class="text-sm uppercase text-gray"
+                            >Design</span
+                          ></a
+                        >
+                        <a href="#"
+                          ><span class="text-sm uppercase text-gray"
+                            >Photograpy</span
+                          ></a
+                        >
+                      </div>
+                    </div>
+                  </article>
+                </div>
+                <div class="article">
+                  <article class="blog-post">
+                    <div class="post-thumbnail">
+                      <img
+                        src="./assets/images/feature_image/23.jpg"
+                        alt="post image"
+                        class="fluid"
+                      />
+                    </div>
+                    <div class="post-info">
+                      <div class="post-author">
+                        <a href="#"
+                          ><span class="text-sm text-gray"
+                            >By Admin June 18, 2022</span
+                          ></a
+                        >
+                      </div>
+                      <div class="post-title">
+                        <a href="#"
+                          ><span class="text-lg text-dark"
+                            >Trip that you'll never ever forget</span
+                          ></a
+                        >
+                      </div>
+                      <div class="post-content">
+                        <p class="para">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Fuga, voluptas. Natus reprehenderit delectus
+                          error reiciendis.
+                        </p>
+                      </div>
+                      <hr />
+                      <div class="post-cat">
+                        <a href="#"
+                          ><span class="text-sm uppercase text-gray"
+                            >Design</span
+                          ></a
+                        >
+                        <a href="#"
+                          ><span class="text-sm uppercase text-gray"
+                            >Photograpy</span
+                          ></a
+                        >
+                      </div>
+                    </div>
+                  </article>
+                </div>
+              </div>
+              <!-- Pagination area -->
+              <div class="row">
+                <div class="col-lg-12 text-center">
+                  <div class="pagination">
+                    <a href="#"><span>1</span></a>
+                    <a href="#"><span>2</span></a>
+                    <a href="#"><span>3</span></a>
+                    <a href="#"><span class="fa fa-arrow-right"></span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12">
+              <aside class="sidebar">
+                <!-- Latest Post Section -->
+                <section class="latest-post">
+                  <a href="#" class="text-md text-dark">Latest Post</a>
+                  <div class="flex flex-column">
+                    <article class="new-post">
+                      <div class="row">
+                        <!-- Two Columns -->
+                        <div class="col-lg-4 post-image">
+                          <img
+                            src="./assets/images/feature_image/tech.jpg"
+                            alt="latest post"
+                            class="fluid"
+                          />
+                        </div>
+                        <div class="col-lg-8 post-title">
+                          <div class="cat">
+                            <a href="#" class="text-sm text-gray category"
+                              >People</a
+                            >
+                            <a href="#" class="text-sm text-gray category"
+                              >Travel</a
+                            >
+                          </div>
+                          <a href="#" class="text-md text-dark"
+                            >Trip that you'll never ever forget</a
+                          >
+                        </div>
+                      </div>
+                    </article>
+                    <article class="new-post">
+                      <div class="row">
+                        <!-- Two Columns -->
+                        <div class="col-lg-4 post-image">
+                          <img
+                            src="./assets/images/feature_image/child.jpg"
+                            alt="latest post"
+                            class="fluid"
+                          />
+                        </div>
+                        <div class="col-lg-8 post-title">
+                          <div class="cat">
+                            <a href="#" class="text-sm text-gray category"
+                              >People</a
+                            >
+                            <a href="#" class="text-sm text-gray category"
+                              >Travel</a
+                            >
+                          </div>
+                          <a href="#" class="text-md text-dark"
+                            >Trip that you'll never ever forget</a
+                          >
+                        </div>
+                      </div>
+                    </article>
+                    <article class="new-post">
+                      <div class="row">
+                        <!-- Two Columns -->
+                        <div class="col-lg-4 post-image">
+                          <img
+                            src="./assets/images/feature_image/nasa.jpg"
+                            alt="latest post"
+                            class="fluid"
+                          />
+                        </div>
+                        <div class="col-lg-8 post-title">
+                          <div class="cat">
+                            <a href="#" class="text-sm text-gray category"
+                              >People</a
+                            >
+                            <a href="#" class="text-sm text-gray category"
+                              >Travel</a
+                            >
+                          </div>
+                          <a href="#" class="text-md text-dark"
+                            >Trip that you'll never ever forget</a
+                          >
+                        </div>
+                      </div>
+                    </article>
+                    <article class="new-post">
+                      <div class="row">
+                        <!-- Two Columns -->
+                        <div class="col-lg-4 post-image">
+                          <img
+                            src="./assets/images/feature_image/12.jpg"
+                            alt="latest post"
+                            class="fluid"
+                          />
+                        </div>
+                        <div class="col-lg-8 post-title">
+                          <div class="cat">
+                            <a href="#" class="text-sm text-gray category"
+                              >People</a
+                            >
+                            <a href="#" class="text-sm text-gray category"
+                              >Travel</a
+                            >
+                          </div>
+                          <a href="#" class="text-md text-dark"
+                            >Trip that you'll never ever forget</a
+                          >
+                        </div>
+                      </div>
+                    </article>
+                    <article class="new-post">
+                      <div class="row">
+                        <!-- Two Columns -->
+                        <div class="col-lg-4 post-image">
+                          <img
+                            src="./assets/images/feature_image/23.jpg"
+                            alt="latest post"
+                            class="fluid"
+                          />
+                        </div>
+                        <div class="col-lg-8 post-title">
+                          <div class="cat">
+                            <a href="#" class="text-sm text-gray category"
+                              >People</a
+                            >
+                            <a href="#" class="text-sm text-gray category"
+                              >Travel</a
+                            >
+                          </div>
+                          <a href="#" class="text-md text-dark"
+                            >Trip that you'll never ever forget</a
+                          >
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                </section>
+                <!-- End Latest Post Section -->
+                <!-- Search Area -->
+                <section class="search-area">
+                  <div class="search">
+                    <h3 class="text-md text-dark">Search</h3>
+                    <form class="form-group">
+                      <input
+                        type="search"
+                        class="input-control mr-sm-2"
+                        placeholder="Search"
+                      />
+                      <button class="btn btn-submit" type="submit">
+                        <i class="fas fa-search"></i>
+                      </button>
+                    </form>
+                  </div>
+                </section>
+                <!-- End Search Area -->
+                <!-- Popular Tags -->
+                <section class="popular-tags">
+                  <h4 class="text-md">Popular Tags</h4>
+                  <div class="tags flex flex-row flex-wrap">
+                    <a href="#"><span>camera</span></a>
+                    <a href="#"><span>bike</span></a>
+                    <a href="#"><span>craft</span></a>
+                    <a href="#"><span>photograpy</span></a>
+                    <a href="#"><span>article</span></a>
+                    <a href="#"><span>events</span></a>
+                    <a href="#"><span>driving</span></a>
+                    <a href="#"><span>wordpress</span></a>
+                  </div>
+                </section>
+                <!-- End Popular Tags -->
+              </aside>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Post Area -->
+    </main>
     <!-- End Main Site Area -->
     <!-- Start Footer Area -->
-    <footer></footer>
+    <footer class="footer-area">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <section class="about-me">
+            <div class="site-logo">
+              <img src="./assets/images/logo.png" alt="logo" width="50" />
+            </div>
+            <p class="para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos,
+              accusamus incidunt! Cum ipsum pariatur ea?
+            </p>
+            <div class="social-media">
+              <a href="#" class="text-primary"
+                ><span class="fab fa-facebook-f"></span
+              ></a>
+              <a href="#" class="text-primary"
+                ><span class="fab fa-instagram"></span
+              ></a>
+              <a href="#" class="text-primary"
+                ><span class="fab fa-twitter"></span
+              ></a>
+              <a href="#" class="text-primary"
+                ><span class="fab fa-youtube"></span
+              ></a>
+            </div>
+          </section>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <!-- recent post area -->
+          <section class="recent-post">
+            <a href="#" class="text-md text-light">Recent Post</a>
+            <div class="posts flex flex-row flex-wrap">
+              <div class="column">
+                <div class="post-image">
+                  <img
+                    src="./assets/images/feature_image/23.jpg"
+                    alt="footer image"
+                    class="fluid"
+                  />
+                </div>
+                <div class="post-image">
+                  <img
+                    src="./assets/images/feature_image/12.jpg"
+                    alt="footer image"
+                    class="fluid"
+                  />
+                </div>
+              </div>
+              <div class="column">
+                <div class="post-image">
+                  <img
+                    src="./assets/images/feature_image/tech.jpg"
+                    alt="footer image"
+                    class="fluid"
+                  />
+                </div>
+                <div class="post-image">
+                  <img
+                    src="./assets/images/feature_image/child.jpg"
+                    alt="footer image"
+                    class="fluid"
+                  />
+                </div>
+              </div>
+              <div class="column">
+                <div class="post-image">
+                  <img
+                    src="./assets/images/feature_image/nasa.jpg"
+                    alt="footer image"
+                    class="fluid"
+                  />
+                </div>
+                <div class="post-image">
+                  <img
+                    src="./assets/images/feature_image/key.jpg"
+                    alt="footer image"
+                    class="fluid"
+                  />
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <!-- popular tags -->
+          <section class="popular-tags">
+            <a href="#" class="text-md text-light">Popular Tags</a>
+            <div class="tags flex flex-row flex-wrap">
+              <a href="#"><span>camera</span></a>
+              <a href="#"><span>bike</span></a>
+              <a href="#"><span>craft</span></a>
+              <a href="#"><span>photograpy</span></a>
+              <a href="#"><span>article</span></a>
+              <a href="#"><span>events</span></a>
+              <a href="#"><span>driving</span></a>
+              <a href="#"><span>wordpress</span></a>
+            </div>
+          </section>
+        </div>
+      </div>
+      <div class="rights text-center text-gray">
+        WordPress Theme By <a href="#" class="text-primary">Anas Banat</a> &copy; 2022
+      </div>
+    </footer>
     <!-- End Footer Area -->
     <!-- Include Script Files -->
     <!-- Include jquery script file -->
